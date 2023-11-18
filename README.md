@@ -6,4 +6,8 @@ without having to pay large amounts.
 
 ## Use
 <a href="">Docs</a>
-# 2024 Release
+
+## Update Log
+
+
+# Offical Release 3, 15, 2024
