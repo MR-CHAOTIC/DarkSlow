@@ -4,7 +4,6 @@ The reason we created DarkSlow is that software like ours where expensive,
 and in our mines, the customer should get the best benefits possible 
 without having to pay large amounts.
 
-## Setup
-Coming soon...
-
+## Use
+<a href="">Docs</a>
 # 2024 Release
