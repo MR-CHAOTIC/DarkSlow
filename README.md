@@ -8,7 +8,7 @@ without having to pay large amounts.
 <a href="">Docs</a>
 
 ## Update Log
-! Href Blocking
-! Lib Files Added
+- Href Blocking
+- Lib Files Added
 
 # Offical Release 3, 15, 2024
