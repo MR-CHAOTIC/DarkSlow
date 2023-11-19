@@ -8,8 +8,8 @@ without having to pay large amounts.
 <a href="">Docs</a>
 
 ## Update Log
-- Href Blocking
-- Lib Files Added
+- Website Files
+- Api Folder
 - Test For tab Viewer
 
 ## Offical Release 3, 15, 2024
