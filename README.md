@@ -8,14 +8,14 @@ without having to pay large amounts.
 <a href="">Docs</a>
 
 ## Update Log
-- Website Files
+- Finished Filter (Extra features soon)
 - Api Folder
-- Test For tab Viewer
 
 ### Meetings
 - JSON or PHP. (JSON for compatibility)
-- Paid or Free. (Still in debate)
+- Paid or Free. (Free)
 - Hosted or setup needed. (Setup needed, but will be easy to use with a command prompt)
+- Viewer will be done in later works.
 
 ## Offical Release 3, 15, 2024
 More info coming soon...
