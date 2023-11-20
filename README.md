@@ -12,5 +12,10 @@ without having to pay large amounts.
 - Api Folder
 - Test For tab Viewer
 
+### Meetings
+- JSON or XML.
+- Paid or Free.
+- Hosted or setup needed.
+
 ## Offical Release 3, 15, 2024
 More info coming soon...
