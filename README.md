@@ -15,7 +15,7 @@ without having to pay large amounts.
 - JSON or PHP. (JSON for compatibility)
 - Paid or Free. (Free)
 - Hosted or setup needed. (Setup needed, but will be easy to use with a command prompt)
-- Viewer will be done in later works.
+- Viewer will be done in later works. (After Release)
 
 ## Offical Release 3, 15, 2024
 More info coming soon...
