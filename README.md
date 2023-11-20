@@ -5,7 +5,7 @@ and in our mines, the customer should get the best benefits possible
 without having to pay large amounts.
 
 ## Use
-<a href="">Docs</a>
+<a href="https://mr-chaotic.github.io/DarkSlow/Website/docs.html">Docs</a>
 
 ## Update Log
 - Finished Filter (Extra features soon)
