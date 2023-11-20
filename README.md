@@ -13,7 +13,7 @@ without having to pay large amounts.
 - Test For tab Viewer
 
 ### Meetings
-- JSON or XML.
+- JSON or PHP. 
 - Paid or Free.
 - Hosted or setup needed.
 
