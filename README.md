@@ -16,6 +16,6 @@ without having to pay large amounts.
 - Paid or Free. (Free)
 - Hosted or setup needed. (Setup needed, but will be easy to use with a command prompt)
 - NPM? (Yes)
-- 
+- Docs md or HTML? (HTML)
 ## Offical Release 3, 15, 2024
 More info coming soon...
