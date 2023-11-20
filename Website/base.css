@@ -1,0 +1,46 @@
+html, body {
+    margin: 0px;
+    background: #1e81b0;
+}
+
+.wrapper {
+    margin: 0px;
+}
+
+.container {
+    padding: 16px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background: white;
+    height: 900px;
+}
+
+.header {
+    padding: 12px;
+    text-align: center;
+    font-size: 28px;
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: transparent;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "JetBrains Mono", monospace;
+    letter-spacing: 0px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+code {
+    padding: 3px;
+    background: black;
+    color: orangered;
+    font-family: 'Aldrich';
+}
+
+button {
+    border: 3px solid black;
+    padding: 6px;
+    background: white;
+    font-weight: bold;
+    font-size: 15px;
+}
