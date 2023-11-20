@@ -2,7 +2,7 @@
     DarkSlow 2023-2024
 */
 
-//Only works to view your own tabs right now, but where working on server capability (Pretty useless right now)
+//Only works to view your own tabs right now, but we are working on server capability (Pretty useless right now)
 
 //Get View
 setInterval(function () {
