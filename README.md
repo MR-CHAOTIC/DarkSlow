@@ -13,9 +13,9 @@ without having to pay large amounts.
 - Test For tab Viewer
 
 ### Meetings
-- JSON or PHP. 
-- Paid or Free.
-- Hosted or setup needed.
+- JSON or PHP. (JSON for compatibility)
+- Paid or Free. (Still in debate)
+- Hosted or setup needed. (Setup needed, but will be easy to use with a command prompt)
 
 ## Offical Release 3, 15, 2024
 More info coming soon...
