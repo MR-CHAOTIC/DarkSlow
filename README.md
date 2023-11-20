@@ -14,7 +14,7 @@ without having to pay large amounts.
 ### Meetings
 - JSON or PHP. (JSON for compatibility)
 - Paid or Free. (Free)
-- Hosted or setup needed. (Setup needed, but will be easy to use with a command prompt)
+
 
 ## Offical Release 3, 15, 2024
 More info coming soon...
