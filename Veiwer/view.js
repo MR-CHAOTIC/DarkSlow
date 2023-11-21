@@ -2,13 +2,27 @@
     DarkSlow 2023-2024
 */
 
-//Only works to view your own tabs right now, but we are working on server capability (Pretty useless right now)
-
-//Get View
+//Get View and update every 10 Seconds
 setInterval(function () {
-    let user_view = location.href; //Get Current viewed tab
-    console.log(user_view); //For Tests
-    //Create Views (Show in DOM)
-    let view = "<iframe src='" + user_view + "' width='250' hieght='180'></iframe>";
-    document.getElementById("views").innerHTML = view;
+    let src = location.href;
+
+    const user_view = "<iframe src='" + src + "' width='275' hieght='180'></iframe>";
+
+    let xhr = new XMLHttpRequest();
+    
+    //Create Response Header
+    xhr.open("POST", "Pre Hosted 'myView' link");
+    xhr.setRequestHeader("Content-Type","application/json");
+    
+    //Create JSON data
+    let re = {
+        view: user_view
+    }
+    
+    //Package JSON data
+    console.log(re);
+
+    //Send Data
+    xhr.send(re);
+    
 }, 10000);
