@@ -12,7 +12,7 @@ without having to pay large amounts.
 - Api Folder
 
 ### Meetings
-- JSON or PHP. (JSON for compatibility)
+- JSON or PHP Re-meet. (New decision JSON with PHP work in)
 - Paid or Free. (Free)
 
 
