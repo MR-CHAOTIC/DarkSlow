@@ -2,8 +2,8 @@
 An open-source web-content filter/blocker.
 
 ## Use
-<a href="">DOCS</a>
+<a href="https://mr-chaotic.github.io/DarkSlow/Website/docs.html">Docs</a>
 
 ## Updates 
 - API Folder creation
-- Viewer Deletion (Sorry but we had troubles leading to a not so nice takedown of the very in-works file)
+- Filter windows and chrome test (Working)
