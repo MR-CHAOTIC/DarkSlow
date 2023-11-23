@@ -12,7 +12,7 @@ without having to pay large amounts.
 - Api Folder
 
 ### Meetings
-- JSON? (Yes) *2 remeet on this*
+- JSON? with PHP work in? (Yes) *2 remeet on this*
 - Paid or Free. (Free)
 
 
