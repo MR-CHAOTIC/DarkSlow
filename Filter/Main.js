@@ -3,16 +3,14 @@
 */
 
 
-//In-Script Lib
 
-//DO NOT REMOVE on github
 //Ask for Notifications.
 Notification.requestPermission().then(function (permission){
     console.log(permission);
 });
 
 //Making Notifications easy to make.
-function notify(d, t, m, s){
+function notify(d){
     //Makes real notifacation
     let r = "Notifacation from: " + location.host;
     let v = new Notification(d, { r,});
