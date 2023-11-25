@@ -3,6 +3,23 @@
 */
 
 
+//In-Script Lib
+
+//DO NOT REMOVE on github
+//Ask for Notifications.
+Notification.requestPermission().then(function (permission){
+    console.log(permission);
+});
+
+//Making Notifications easy to make.
+function notify(d, t, m, s){
+    //Makes real notifacation
+    let r = "Notifacation from: " + location.host;
+    let v = new Notification(d, { r,});
+}
+
+
+
 //Blocking sites as a hole
 let blocked_host = ["", "", ""]; //Blocked sites (Using the site host)
 let blocked_href = ["", "", ""]; //Blocked sites (Using the site href)
