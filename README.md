@@ -6,4 +6,9 @@ An open-source web-content filter/blocker.
 
 ## Updates 
 - API Folder creation
-- Filter windows and chrome test (Working)
+- Filter Windows and Chrome test (Working)
+
+## Coming Soon
+- In-page filter
+- Settings
+- UI
