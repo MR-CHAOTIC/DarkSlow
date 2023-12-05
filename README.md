@@ -8,7 +8,10 @@ An open-source web-content filter/blocker.
 - Notifications
 
 ## How it works 
-DarkSlow works by getting the source of elements and or their contents<br>
-and then replacing the contents so the content is not viewable (blocked).
+DarkSlow works by having you set the websites you don't want viewable, <br>
+taking its content and changing it to a blocked element.
+
+DarkSlow also has presets and "figures" to automatically, wire out the <br>
+not so good sites.
 
 ## 
