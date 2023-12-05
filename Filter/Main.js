@@ -2,8 +2,6 @@
     DarkSlow 2023-2024
 */
 
-
-
 //Ask for Notifications.
 Notification.requestPermission().then(function (permission){
     console.log(permission);
