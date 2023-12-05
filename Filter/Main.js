@@ -59,9 +59,12 @@ for(let i = 0; i < blocked_href.length; i++){
         //Still in works
     };
     
-    if(block_inappropriate_embeds == true){
-        //Still in works
+    if(block_inappropriate_embeds === true){
+        let embed = document.getElementsByTagName("iframe"); //Get embeds
+        
+        for(let i = 0; i < embed.length; i++){
+            let reEmbed = embed[i].src; //Decalre there source
+            embed[i].src = reEmbed.replace(blocked_host[i], "_Blocked_"); //Replace or block embed's content
+        };
     };
-    
-
 }) ();
