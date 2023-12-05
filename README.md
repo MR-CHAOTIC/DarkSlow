@@ -10,3 +10,5 @@ An open-source web-content filter/blocker.
 ## How it works 
 DarkSlow works by getting the source of elements and or their contents<br>
 and then replacing the contents so the content is not viewable (blocked).
+
+## 
