@@ -21,9 +21,9 @@ let reason = "<Organizations web-rules>";
 
 //Settings
 //Setting go off ture:false basis.
-let block_inappropriate_embeds;
-let block_inappropriate_images; 
-let auto_block_preset;
+let block_inappropriate_embeds = true;
+let block_inappropriate_images = true; 
+let word_block = true;
 
 //Checking and blocking custom set sites.
 for(let i = 0; i < blocked_host.length; i++){
@@ -70,32 +70,26 @@ for(let i = 0; i < blocked_href.length; i++){
 }) ();
 
 //Block Embeds, websites or images containing a key word.
-if(auto_block_preset === true){
-    let key_words = ["games", "unblocked", "tynker"]; //Set keywords
-    (function(){
-        let loc = location.host;
-        for(let i = 0; i < key_words.length; i++){
-            if(loc.includes(key_words[i])){
-                window.location.href = "<Page Change>";
-                let win = window.open();                                                                                         //Page Css
-                win.document.write("<!DOCTYPE html><html><head><meta charset='utf-8'><title>Blocked</title></head> <body><style>html, body {margin: 0px;background: #354}div {padding: 35px;background: lightgreen; margin-top: 80px; margin-bottom: 12px; text-align: center;}</style><div><h1>Blocked</h1><p>Reason:" + reason +" </p></div><script></script></body></html>");
-            };
-        };
-        
-        let image = document.getElementsByTagName("img"); //Get images
-        
-        for(let i = 0; i < key_words.length; i++){
-            let reImage = image[i].src; //Decalre there source
-            image[i].src = reImage.replace(key_words[i], "_Blocked_"); //Replace or block images's content
-        };
-        
-        if(block_inappropriate_embeds === true){
-            let embed = document.getElementsByTagName("iframe"); //Get embeds
+let loc = location.href;
+let key_word = ["car", "hi", ""]
+
+for(let i = 0; i < key_word.length; i++){
+    if(loc.includes(key_word[i])){
+        console.log("true");
+        console.log(key_word[i])
+    };
+};
             
-            for(let i = 0; i < embed.length; i++){
-                let reEmbed = embed[i].src; //Decalre there source
-                embed[i].src = reEmbed.replace(key_words[i], "_blocked_"); //Replace or block embed's content
-            };
-        };
-    });
+let image = document.getElementsByTagName("img"); //Get images
+        
+for(let i = 0; i < key_words.length; i++){
+    let reImage = image[i].src; //Decalre there source
+    image[i].src = reImage.replace(key_word[i], "_Blocked_"); //Replace or block images's content
+};
+
+let embed = document.getElementsByTagName("iframe"); //Get embeds
+        
+for(let i = 0; i < key_word.length; i++){
+    let reEmbed = embed[i].src; //Decalre there source
+    embed[i].src = reEmbed.replace(key_word[i], "_blocked_"); //Replace or block embed's content
 };
