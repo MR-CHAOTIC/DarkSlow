@@ -1,6 +1,5 @@
 # DarkSlow
-An open-source web-content filter/blocker.
-
+A simple page filter and blocker, for all browsers.
 
 ## Updates 
 - Keyword Blocking
